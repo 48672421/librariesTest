@@ -8,3 +8,7 @@ type LibrariesTest struct {
 func NewLibrariesTest() *LibrariesTest {
 	return &LibrariesTest{}
 }
+
+func (l LibrariesTest) Hello() {
+	println("Hello")
+}
